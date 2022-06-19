@@ -1,0 +1,53 @@
+* {
+    background-color: lightcyan;
+}
+
+.ListItem {
+    font-size: smaller;
+    color:tomato;
+    background-color: yellowgreen;
+    font-weight: 700;
+}
+
+.ListItem.Unique {
+    background-color: brown;
+    color: white;
+}
+
+.Title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkslategray;
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.Title.Secondary {
+    font-size: 35px;
+}
+
+.Title.Tertiary {
+    font-size: 25px;
+}
+
+.Title.First {
+    font-size: 45px;
+}
+
+.ImageOne {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: red;
+    width: auto;
+    height: 400px;
+    border-radius: 50%;
+}
+
+ol, ul {
+    display: table;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+}
